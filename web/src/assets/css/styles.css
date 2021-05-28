@@ -1,0 +1,113 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.17em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: .83em;
+}
+
+h6 {
+  font-size: .67em;
+}
+
+p {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+ol,
+ul {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+li {
+  display: list-item;
+}
+
+a.link-site:link, 
+a.link-site:visited {
+  color: orange;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a.link-site:link:active, 
+a.link-site:visited:active {
+  color: orange;
+}
+
+pre {
+  display: flex;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  overflow-x: auto;
+}
+code, samp, kbd {
+	font-family: "Courier New", Courier, monospace, sans-serif;
+	text-align: left;
+	color: #666666;
+}
+code {
+  padding: 1rem;
+	line-height: 1.6em;
+  font-size: 12px;
+}
+/* target IE7 and IE6 */
+*:first-child+html pre {
+	padding-bottom: 2em;
+	overflow-y: hidden;
+	overflow: visible;
+	overflow-x: auto; 
+}
+* html pre { 
+	padding-bottom: 2em;
+	overflow: visible;
+	overflow-x: auto;
+}
+
+.modal-resets > div {
+  position: relative;
+  align-items: flex-start;
+  height: auto;
+}
+

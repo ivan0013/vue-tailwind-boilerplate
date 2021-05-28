@@ -1,0 +1,17 @@
+image: node:12.13.1-alpine3.10
+
+variables:
+    REPOSITORY_HOST: '192.168.204.10'
+    REPOSITORY_DOMAIN: 'git-adserver.addevweb.com'
+
+stages:
+    - lint
+
+lint:
+  stage: lint
+  script:
+    - yarn install
+    - yarn lint
+  except:
+    - triggers
+    - tags
