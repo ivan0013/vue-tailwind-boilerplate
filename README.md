@@ -1,2 +1,1 @@
-# Hexit
-Repo for Hexit 
+Template for vue + tailwind
